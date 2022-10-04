@@ -1,8 +1,10 @@
-p {
+/* set general font-family to Helvetica*/
+
+p, h1, h2, h3, span {
     font-family: Helvetica;
-    text-align: left;
 }
 
+/* used banner backgrounding instead of h1 */
 .banner {
     background: url("../images/pattern.jpeg");
     text-align: center;
@@ -13,19 +15,18 @@ div {
 }
 
 h1 {
-    font-family: Helvetica;
     font-size: 100px;
     font-weight: bold;
     color: khaki;
 }
 
 h2 {
-    font-family: Helvetica;
     font-size: 32px;
     font-weight: bold;
     color: white;
 }
 
+/* used definite div's h2 */
 #brushes h2 {
     background-color: mediumspringgreen;
 }
@@ -38,11 +39,7 @@ h2 {
     background-color: skyblue;
 }
 
-h3 {
-    font-family: Helvetica;
-}
 .pricing {
-    font-family: Helvetica;
     font-weight: bold;
     color: blue;
 }
